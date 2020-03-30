@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+
+.header{
+    width: 1295px;
+    height: 257px;
+    background-size: 100%;
+    background-position: 0 750px;
+	background-image: url(img/gunung.jpg);
+	display: flex;
+
+
+}
+
+.header h1{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    text-align:left;
+    font-size: 50px;
+    color: snow;
+    font-family: fantasy;
+}
+
+}
+.header label{
+    float: right;
+    margin-top: -22px;
+    padding: 2px;
+}
+
+nav {
+	font-size: ;
+	background-color: #9dc6a7;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	cursor: pointer;
+	padding: 0.5rem;
+	flex: auto;
+	text-align: center;	
+	font-family: sans-serif;
+}
+
+nav ul li:hover{
+	background-color:#555;
+	color: black;
+}
+
+@media all and (max-width: 400px){
+	nav ul{
+		flex-direction: column;
+	}
+	nav ul li {
+		text-align: center;
+	}
+}
+
+a{
+	text-decoration: none;
+}
+
+.sidebar {
+  float:right;
+  width:275px;
+}
+ 
+.sidebar .widget {
+  padding:25px;
+  margin:0 0 25px;
+  background:#fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.5s ease;
+}
+ 
+.sidebar .widget:hover {
+  border-bottom: 2px solid #3498db;
+}
+.sidebar .widget p {
+  font-size: 14px;
+}
+.blog {
+  float:center;
+  display: flex;
+}
+ 
+.conteudo {
+  width:600px;
+  padding:25px;
+  margin:25px auto;
+  background: #fff;
+  border:1px solid #dedede;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+  box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+ 
+.conteudo img {
+  min-width: 100px;
+  margin:0 0 25px -25px;
+  max-width: 650px;
+  padding-top: 20px;
+  display: flex;
+
+}
+ 
+.conteudo h1 {
+  padding:0;
+  margin:0 0 15px;
+  font-weight: normal;
+  color: #666;
+  font-family: sans-serif;
+}
+ 
+.conteudo p:last-child {
+  margin: 0;
+}
+ 
+.conteudo {
+    margin:25px auto;
+  }
+ 
+  .conteudo img {
+    margin:-5% 0 25px -5%;
+  } 
+
+  footer {
+    background-color:#9dc6a7;
+    display: flex;
+  }
+
+  .golongan img {
+    float: bottom;
+    padding-top: 100px;
+  }
